@@ -1,0 +1,7 @@
+.env
+storage/
+.test-data/
+node_modules/
+.DS_Store
+*.zip
+*.log

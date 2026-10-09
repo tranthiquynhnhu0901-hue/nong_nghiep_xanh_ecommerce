@@ -1,0 +1,17 @@
+services:
+  website:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - PORT=3000
+      - DATA_DIR=/app/storage
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - nongnghiepxanh_data:/app/storage
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  nongnghiepxanh_data:

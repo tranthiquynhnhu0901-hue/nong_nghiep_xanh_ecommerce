@@ -1,0 +1,5 @@
+# GitHub project Pages has no control over host-root robots.txt.
+# Each HTML page sets its own indexing directive.
+User-agent: *
+Allow: /nong_nghiep_xanh_ecommerce/
+Sitemap: https://tranthiquynhnhu0901-hue.github.io/nong_nghiep_xanh_ecommerce/sitemap.xml
